@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../Javascript/plugins/AllCdn.js"></script>
+    <link rel="stylesheet" href="../Css/Event.css">
+</head>
+<body>
+    <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <!-- Navbar Brand -->
+            <a class="navbar-brand" href="#">Your Brand</a>
+    
+            <!-- Navbar Toggler for small screens -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <!-- Navbar Items -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Streams</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Plays</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sports</a>
+                    </li>
+                </ul>
+    
+                <!-- Search Box -->
+                <form class="d-flex ms-auto" id="searchform">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="searchbarid">
+                    <button class="btn btn-outline-success" id="searchb" type="submit">Search</button>
+                </form>
+    
+                <!-- Login Button -->
+                <button class="btn btn-outline-primary ms-2" type="button">Login</button>
+            </div>
+        </div>
+    </nav>
+</body>
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../Images/banner1.jpg" class="d-block w-100" alt="Banner 1">
+      </div>
+      <div class="carousel-item">
+        <img src="../Images/banner2.jpg" class="d-block w-100" alt="Banner 2">
+      </div>
+      <div class="carousel-item">
+        <img src="../Images/banner3.jpg" class="d-block w-100" alt="Banner 3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+ <div class="container d-flex justify-content-center">
+  <div id="searcheddata"></div>
+ </div>
+
+  
+  <div class="container mt-5">
+    <h2 class="mb-4">Upcoming Events</h2>
+   
+    
+        <div class="row">
+          <div class="col-2">
+            <div class="dropdown">
+              <button class="dropdown-btn btn-lg ">Languages</button>
+              <div class="dropdown-content">
+                <a href="#">Hindi</a>
+                <a href="#">English</a>
+                <a href="#">Marathi</a>
+                <a href="#">Telugu</a>
+              </div>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <div class="dropdown mt">
+              <button class="dropdown-btn btn-lg ">Categories</button>
+              <div class="dropdown-content">
+                <a href="#">Workshops</a>
+                <a href="#">Comedy Shows</a>
+                <a href="#">Music Shows</a>
+                <a href="#">Online Streaming Event</a>
+                <a href="#">Screening</a>
+              </div>
+            </div>
+        </div>
+      
+          <div class="col-10">
+
+            <div class="row row-cols-1 row-cols-md-4 g-4 movie-append" id="event-append">
+            </div>
+        </div>
+      </div>
+      <main>
+        <input type="text" id="searchInput" placeholder="Search for movies">
+        <ul id="movieList"></ul>
+    </main>
+</div>
+
+
+
+<script src="../Javascript/Controller/event_page_controller.js" type="module"></script>
+<script src="../Javascript/Services/EventService.js" type="module"></script>
+<script src="../Javascript/Controller/search_controller.js" type="module"></script>
+<!-- <script src="../Javascript/Controller/select_movie.js" type="module"></script> -->
+<!-- <script src="../Javascript/Controller/select_movie_controller.js" type="module"></script> -->
+
+</body>
+</html>

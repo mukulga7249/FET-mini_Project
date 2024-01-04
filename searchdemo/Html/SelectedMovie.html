@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../Javascript/plugins/AllCdn.js"></script>
+    <link rel="stylesheet" href="../Css/selectedmovie.css">
+</head>
+<body>
+    <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <!-- Navbar Brand -->
+            <a class="navbar-brand" href="#">Your Brand</a>
+    
+            <!-- Navbar Toggler for small screens -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <!-- Navbar Items -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Streams</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Plays</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sports</a>
+                    </li>
+                </ul>
+                <!-- Search Box -->
+                <form class="d-flex ms-auto">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+                </form>
+    
+                <!-- Login Button -->
+                <!-- <button class="btn btn-outline-primary ms-2" type="button">Login</button> -->
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container mt-5 movie_poster" id="append-movie" >
+        
+    </div>
+
+    
+</div>
+
+
+    <script src="../Javascript/Controller/select_movie_controller.js" type="module"></script>
+    <script src="../Javascript/Services/MoviesServices.js" type="module"></script>
+</body>
+</html>
+
+
+<!-- <div class="container mt-5 movie_poster" >
+    <div class="row">
+        <div class="col-md-6 movie_img_div" id="movie_img_div">
+            <img src="../Images/Sallar.jpg" class="movie_img" id="movie_img" alt="Movie Poster" class="img-fluid">
+        </div>
+        <div class="col-md-6">
+            <h1 class="mb-4">Movie Title</h1>
+            <p class="lead mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p class="mb-2"><strong>Genre:</strong> Action, Drama</p>
+            <p class="mb-2"><strong>Language:</strong> English</p>
+            <p class="mb-2"><strong>Rating:</strong> 4.5/5</p>
+            <p class="mb-4"><strong>Showtimes:</strong> 12:00 PM, 3:00 PM, 6:00 PM</p>
+            <a href="booking.html" class="btn btn-primary">Book Now</a>
+        </div>
+    </div>
+</div> -->
