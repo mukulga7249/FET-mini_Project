@@ -1,0 +1,242 @@
+{
+    "user":[
+        {
+
+            
+            "_userName":"Pratik",
+            "_userId":"pratik@gmail.com",
+            "_password":"pratik",
+            "_userMobNo":"8378037917",
+            "_favGener":["Action","Horror"],
+            "_rating":"",
+            "_feedback":"",
+            "id": 1
+            
+        }
+
+
+
+    ],
+    
+    "movies":[
+        {
+            "id":"1",
+            "title":"Salaar",
+            "genre":"Action",
+            "duration_minutes":"2h 55m",
+            "release_date":"22 Dec 2023",
+            "language":"Hindi",
+            "director":"",
+            "producer":"",
+            "cast":"prabhas",
+            "rating":"",
+            "description":"",
+            "music_director":"",
+            "cinematographer":"",
+            "screenplay_writer":"",
+            "movie_img":"/Images/Sallar.jpg"
+
+        },
+        {
+            "id":"2",
+            "title":"Salaar",
+            "genre":"Action",
+            "duration_minutes":"2h 55m",
+            "release_date":"22 Dec 2023",
+            "language":"Hindi",
+            "director":"",
+            "producer":"",
+            "cast":"prabhas",
+            "rating":"",
+            "description":"",
+            "music_director":"",
+            "cinematographer":"",
+            "screenplay_writer":"",
+            "movie_img":"/Images/Sallar.jpg"
+
+        },
+        {
+            "id":"3",
+            "title":"Salaar",
+            "genre":"Action",
+            "duration_minutes":"2h 55m",
+            "release_date":"22 Dec 2023",
+            "language":"Hindi",
+            "director":"",
+            "producer":"",
+            "cast":"prabhas",
+            "rating":"",
+            "description":"",
+            "music_director":"",
+            "cinematographer":"",
+            "screenplay_writer":"",
+            "movie_img":"/Images/Sallar.jpg"
+
+        },
+
+        {
+            "id":"4",
+            "title":"Dunki",
+            "genre":"Horror",
+            "duration_minutes":"2h 41m",
+            "release_date":"21 Dec 2023",
+            "language":"Hindi",
+            "director":"",
+            "producer":"",
+            "cast":"",
+            "rating":"",
+            "description":"",
+            "music_director":"",
+            "cinematographer":"",
+            "screenplay_writer":"",
+            "movie_img":"/Images/dunki.jpg"
+        },
+
+        {
+            "id":"5",
+            "title":"",
+            "genre":"",
+            "duration_minutes":"",
+            "release_date":"",
+            "language":"",
+            "director":"",
+            "producer":"",
+            "cast":"",
+            "rating":"",
+            "description":"",
+            "music_director":"",
+            "cinematographer":"",
+            "screenplay_writer":"",
+            "movie_img":"/Images/dunki.jpg"
+        }
+
+        
+
+        
+    ],
+
+    "music_shows":[
+        {
+
+
+        }
+    ],
+
+    "events":[
+        {
+            "id":"1",
+            "title":"Zakir Khan Live-Pune",
+            "genre":"Comedy Show",
+            "language":"Hindi",
+            "event_img":"/Images/zkhan.png" 
+
+        },
+        {
+            "id":"2",
+            "title":"Rambo Circus",
+            "genre":"Comedy Show",
+            "language":"English",
+            "event_img":"../Images/rcircus.png" 
+
+        },
+        {
+            "id":"3",
+            "title":"Vasantotsav 2024",
+            "genre":"Music",
+            "language":"Marathi",
+            "event_img":"../Images/votsav.png" 
+
+        },
+        {
+            "id":"4",
+            "title":"Canvas Painting",
+            "genre":"Workshops",
+            "language":"Telugu",
+            "event_img":"/Images/workshop.png" 
+
+        },
+        {
+            "id":"5",
+            "title":"Zakir Khan Live-Pune",
+            "genre":"Comedy Show",
+            "language":"Hindi",
+            "event_img":"/Images/zkhan.png" 
+
+        },
+        {
+            "id":"6",
+            "title":"Rambo Circus",
+            "genre":"Comedy Show",
+            "language":"English",
+            "event_img":"../Images/rcircus.png" 
+
+        },
+        {
+            "id":"7",
+            "title":"Vasantotsav 2024",
+            "genre":"Music",
+            "language":"Marathi",
+            "event_img":"../Images/votsav.png" 
+
+        },
+        {
+            "id":"8",
+            "title":"Canvas Painting",
+            "genre":"Workshops",
+            "language":"Telugu",
+            "event_img":"/Images/workshop.png" 
+
+        }
+    ],
+
+    "sports":[
+        {
+            "id":"1",
+            "title":"Samurai Sudoku Championship",
+            "genre":"Online Games",
+            "price":"$149",
+            "description":"Watch on Zoom",
+            "sport_img":"/Images/samurai.png" 
+        },
+        {
+            "id":"2",
+            "title":"Fitness Virtual Marathon 2024",
+            "genre":"Running",
+            "price":"$390",
+            "description":"Your Place and your time",
+            "sport_img":"/Images/run.png" 
+        }
+    ],
+
+    "theaters":[
+        {
+            
+            "_theater_name":"",
+            "_city":"",
+            "_location":"",
+            "_total_seats":"",
+            "_available_seats":"",
+            "_booked_seats":"",
+            "_id":""
+
+        }
+    ],
+    "showtimes":[{
+
+
+        }
+    ],
+    "seats":[
+        {
+
+        }
+    ],
+    "artist":[
+        {
+            "id":"",
+            "artist_name":"",
+            "artist_img":""
+        }
+    ]
+   
+}
